@@ -1,14 +1,14 @@
-.body {background-color: #F6F8F9;}
+.body {background-color: #F6F8F9; 	}
 /*Header*/
-.header{position: fixed;
-	top: 0;
-	width: 100%;
-}
 
-.div-header {width: 100%;
-			height: 50px;
-			padding: 11px 0 9px 22px;
-			background-color: #F6F8F9;}
+.div-header {position: fixed;
+	top: 0;
+	z-index: 20;
+	background-color: #F6F8F9;
+	width: 100%;
+	height: 50px;
+	padding: 11px 0 9px 22px;}
+	
 .logo-header {color: #FA6980;
 				font-size: 13px;
 				display: inline-block;
@@ -52,8 +52,8 @@
 /*section1-pictures*/
 .body-container-section1 {width: 1160px; height: 350px; }
 .subcontainer1-section1 {width: 360px; height: 350px; display: inline-block; vertical-align: middle; margin-right: 36px;}
-.subcontainer1-section1-pic {width: 360px; position: relative; height: 180px;}
-.subcontainer1-section2-pic2 {font-family: Helvetica; position: absolute; font-size: 16px; color: #FFFFFF; height: 16px; width: 280px; top: 28px; right: 40px; left: 40px;}
+.subcontainer1-section1-pic {width: 360px; position: relative; height: 180px; z-index: 1;}
+.subcontainer1-section2-pic2 {font-family: Helvetica; position: absolute; font-size: 16px; color: #FFFFFF; height: 16px; width: 280px; text-align: center; z-index: 2;}
 .text-pic {width: 280px; margin: 64px 40px 10px 40px; height: 38px;}
 .text-p {font-size: 13px; color: #A6ADB4; font-family: 'Acumin Pro';}
 .section1-footer {width: 69px; margin: 11px 251px 40px 40px;}
@@ -74,9 +74,9 @@
 			font-family: Helvetica;}
 
 .section2-container1 {width: 760px; margin-right: 40px; vertical-align: middle; display: inline-block;} 
-.section2-container1-position {position: relative; }
-.section2-container1-position2 {position: absolute; top:194px; right: 172px; left: 308px; height: 16px; color: #FFFFFF; font-size: 16px; font-family: Helvetica;}
-.section2-pic1 {margin-bottom: 40px; position: relative; width: 760px; height: 430px; }
+.section2-container1-position {position: relative; z-index: 1;}
+.section2-container1-position2 {position: absolute; top:194px; text-align: center; color: #FFFFFF; font-size: 16px; font-family: Helvetica; z-index: 2;}
+.section2-pic1 {margin-bottom: 40px; position: relative; width: 760px; height: 430px; z-index: 1; }
 .section2-container2 {width: 360px; vertical-align: middle; display: inline-block;}
 .section2-pic2 {margin-bottom: 102px;}
 /*section2-end*/
