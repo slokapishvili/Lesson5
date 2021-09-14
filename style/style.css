@@ -1,0 +1,11 @@
+/*Header*/
+
+.header{
+	position: fixed;
+}
+
+.logo-header {color: #FA6980;
+				font-size: 13px;
+				font-weight: bold;
+				display: inline-block;}
+.navigation {display: inline-block;}
