@@ -11,7 +11,6 @@
 			background-color: #F6F8F9;}
 .logo-header {color: #FA6980;
 				font-size: 13px;
-				font-weight: bold;
 				display: inline-block;
 				margin-right: 92px;
 				vertical-align: middle;
@@ -49,7 +48,6 @@
 			}
 .h-section1 {color: #202124;
 			font-size: 24px;
-		font-weight: bold;
 		font-family: Helvetica;}
 /*section1-pictures*/
 .body-container-section1 {width: 1160px; height: 350px; }
@@ -73,7 +71,6 @@
 				}
 .h-section2 {color: #202124;
 			font-size: 24px;
-			font-weight: bold;
 			font-family: Helvetica;}
 
 .section2-container1 {width: 760px; margin-right: 40px; vertical-align: middle; display: inline-block;} 
@@ -89,12 +86,12 @@
 .footer-container {width: 100%;margin-top: 37px; background-color: #A6ADB4; height: 200px; padding-top: 56px;}
 .footer-text {margin: 0 auto; width: 1160px; height: 108px;}
 .footer-nav {width: 486px; display: inline-block;}
-.footer-logo {font-size: 13px; font-weight: bold; color: #FFFFFF; display: inline-block; vertical-align: top; margin-right: 80px; font-family: 'Acumin Pro';}
+.footer-logo {font-size: 13px; color: #FFFFFF; display: inline-block; vertical-align: top; margin-right: 80px; font-family: 'Acumin Pro';}
 .list1 {vertical-align: text-top; display: inline-block; margin-right: 65px; width: 67px;}
-.text-list {font-size: 13px; font-weight: bold; color: #CBD0D3; font-family: 'Helvetica'; vertical-align:top; line-height: 20px;}
+.text-list {font-size: 13px; color: #CBD0D3; font-family: 'Helvetica'; vertical-align:top; line-height: 20px;}
 .list2 {vertical-align: text-top; display: inline-block; margin-right: 65px; width: 67px; }
 .list3 {vertical-align: text-top; display: inline-block;}
 .footer-text2 {vertical-align: top ; display: inline-block; margin-left: 104px;}
-.text-list2 {font-size: 11px; font-weight: bold; color: #CBD0D3; font-family: 'Helvetica'; }
+.text-list2 {font-size: 11px; color: #CBD0D3; font-family: 'Helvetica'; }
 .footer-logos {display: inline-block; vertical-align: top; margin-left: 150px; }
 .footer-logo-pic {margin-right: 32px;}
