@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../fonts/dehinted-AcuminPro-Regular.eot');
+    src: url('../fonts/dehinted-AcuminPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/dehinted-AcuminPro-Regular.woff2') format('woff2'),
+        url('../fonts/dehinted-AcuminPro-Regular.woff') format('woff'),
+        url('../fonts/dehinted-AcuminPro-Regular.ttf') format('truetype'),
+        url('../fonts/dehinted-AcuminPro-Regular.svg#AcuminPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/dehinted-Helvetica-Bold.eot');
+    src: url('../fonts/dehinted-Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/dehinted-Helvetica-Bold.woff2') format('woff2'),
+        url('../fonts/dehinted-Helvetica-Bold.woff') format('woff'),
+        url('../fonts/dehinted-Helvetica-Bold.ttf') format('truetype'),
+        url('../fonts/dehinted-Helvetica-Bold.svg#Helvetica-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+

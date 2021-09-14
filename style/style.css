@@ -1,33 +1,37 @@
-.body {background-color: #F6F8F9}
+.body {background-color: #F6F8F9;}
 /*Header*/
-
-.header{
-	position: fixed;
+.header{position: fixed;
 	top: 0;
+	width: 100%;
 }
 
 .div-header {width: 100%;
 			height: 50px;
-			padding: 11px 0 9px 22px;}
+			padding: 11px 0 9px 22px;
+			background-color: #F6F8F9;}
 .logo-header {color: #FA6980;
 				font-size: 13px;
 				font-weight: bold;
 				display: inline-block;
 				margin-right: 92px;
-				vertical-align: middle;}
+				vertical-align: middle;
+				font-family: Helvetica;}
 .navigation {display: inline-block;
 			vertical-align: middle;}
 .list-1 {font-size: 11px;
 		margin-right: 27px;
 		display: inline-block;
+		font-family: Helvetica;
 		}
 .list-standard {display: inline-block;
 				font-size: 11px;
 				margin-right: 22px;
+				font-family: Helvetica;
 				}
 .list4 {display: inline-block;
 		font-size: 11px;
-		margin-right: 40px;}
+		margin-right: 40px;
+		font-family: Helvetica;}
 
 .a-list-black {color: rgb(52, 54, 56)}
 .a-list-standard {color: rgb(52, 54, 56,50%);}
@@ -41,19 +45,23 @@
 					}
 .h-container-section1 {width: 1025px;
 				height: 20px; 
-				margin-bottom: 40px;}
+				margin-bottom: 40px;
+			}
 .h-section1 {color: #202124;
 			font-size: 24px;
-		font-weight: bold;}
+		font-weight: bold;
+		font-family: Helvetica;}
 /*section1-pictures*/
-.body-container-section1 {width: 1160px; height: 350px;}
+.body-container-section1 {width: 1160px; height: 350px; }
 .subcontainer1-section1 {width: 360px; height: 350px; display: inline-block; vertical-align: middle; margin-right: 36px;}
-.text-pic {width: 280px; margin: 64px 40px 10px 40px;}
-.text-p {font-size: 13px; color: #A6ADB4;}
+.subcontainer1-section1-pic {width: 360px; position: relative; height: 180px;}
+.subcontainer1-section2-pic2 {font-family: Helvetica; position: absolute; font-size: 16px; color: #FFFFFF; height: 16px; width: 280px; top: 28px; right: 40px; left: 40px;}
+.text-pic {width: 280px; margin: 64px 40px 10px 40px; height: 38px;}
+.text-p {font-size: 13px; color: #A6ADB4; font-family: 'Acumin Pro';}
 .section1-footer {width: 69px; margin: 11px 251px 40px 40px;}
 .section1-footer-p {font-size: 13px; color: #A6ADB4; display: inline-block; font-weight: normal;}
-.subcontainer2-section1 {width: 360px; height: 350px; display: inline-block; vertical-align: middle;  margin-right: 40px;}
-.subcontainer3-section1 {width: 360px; height: 350px; display: inline-block; vertical-align: middle;}
+.subcontainer2-section1 {width: 360px; height: 350px; display: inline-block; vertical-align: middle;  margin-right: 40px; }
+.subcontainer3-section1 {width: 360px; height: 350px; display: inline-block; vertical-align: middle; }
 /*section1-end*/
 
 /*section2*/
@@ -65,10 +73,13 @@
 				}
 .h-section2 {color: #202124;
 			font-size: 24px;
-			font-weight: bold;}
+			font-weight: bold;
+			font-family: Helvetica;}
 
 .section2-container1 {width: 760px; margin-right: 40px; vertical-align: middle; display: inline-block;} 
-.section2-pic1 {margin-bottom: 40px;}
+.section2-container1-position {position: relative; }
+.section2-container1-position2 {position: absolute; top:194px; right: 172px; left: 308px; height: 16px; color: #FFFFFF; font-size: 16px; font-family: Helvetica;}
+.section2-pic1 {margin-bottom: 40px; position: relative; width: 760px; height: 430px; }
 .section2-container2 {width: 360px; vertical-align: middle; display: inline-block;}
 .section2-pic2 {margin-bottom: 102px;}
 /*section2-end*/
@@ -78,12 +89,12 @@
 .footer-container {width: 100%;margin-top: 37px; background-color: #A6ADB4; height: 200px; padding-top: 56px;}
 .footer-text {margin: 0 auto; width: 1160px; height: 108px;}
 .footer-nav {width: 486px; display: inline-block;}
-.footer-logo {font-size: 13px; font-weight: bold; color: #FFFFFF; display: inline-block; vertical-align: top; margin-right: 80px;}
+.footer-logo {font-size: 13px; font-weight: bold; color: #FFFFFF; display: inline-block; vertical-align: top; margin-right: 80px; font-family: 'Acumin Pro';}
 .list1 {vertical-align: text-top; display: inline-block; margin-right: 65px; width: 67px;}
-.text-list {font-size: 13px; font-weight: bold; color: #CBD0D3;}
-.list2 {vertical-align: text-top; display: inline-block; margin-right: 65px; width: 67px;}
+.text-list {font-size: 13px; font-weight: bold; color: #CBD0D3; font-family: 'Helvetica'; vertical-align:top; line-height: 20px;}
+.list2 {vertical-align: text-top; display: inline-block; margin-right: 65px; width: 67px; }
 .list3 {vertical-align: text-top; display: inline-block;}
 .footer-text2 {vertical-align: top ; display: inline-block; margin-left: 104px;}
-.text-list2 {font-size: 11px; font-weight: bold; color: #CBD0D3;}
-.footer-logos {display: inline-block; vertical-align: top; margin-left: 165px;}
+.text-list2 {font-size: 11px; font-weight: bold; color: #CBD0D3; font-family: 'Helvetica'; }
+.footer-logos {display: inline-block; vertical-align: top; margin-left: 150px; }
 .footer-logo-pic {margin-right: 32px;}
